@@ -82,9 +82,9 @@ public class PilhaPalindromo {
 			}
 			
 			if (palavraLimpa.equals(palavraInvertida.toString())) {
-				System.out.println("\n'" + entrada + "' E um palindromo! ✓");
+				System.out.println("\n'" + entrada + "' E um palindromo!");
 			} else {
-				System.out.println("\n'" + entrada + "' NAO e um palindromo! ✗");
+				System.out.println("\n'" + entrada + "' Nao e um palindromo!");
 			}
 			
 			System.out.println("Palavra original (limpa): " + palavraLimpa);
